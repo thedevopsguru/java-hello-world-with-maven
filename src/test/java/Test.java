@@ -17,8 +17,8 @@ public class Test extends TestCase {
    * getUserInfoURL Test
    */
   public void testGetUserInfoURL() {
-    String name = "niwasawa";
-    App app = new App(name);
-    assertEquals("https://api.github.com/users/niwasawa", app.getUserInfoURL());
+    String name = "thedevopsguru";
+    HelloWorld app = new HelloWorld(name);
+    assertEquals("https://api.github.com/users/thedevopsguru", app.getUserInfoURL());
   }
 }
